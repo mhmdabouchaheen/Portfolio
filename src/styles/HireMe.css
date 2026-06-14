@@ -1,0 +1,46 @@
+.hireme {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #050816, #0f172a, #1e1b4b);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.hireme-container {
+  max-width: 800px;
+}
+
+.hireme-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #8b5cf6;
+}
+
+.hireme-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #d1d5db;
+}
+
+.hireme-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.hireme-list li {
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.hireme-list li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
