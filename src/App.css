@@ -182,3 +182,33 @@
     border-right-color: var(--border);
   }
 }
+.app.dark {
+  background: #0f172a;
+  color: white;
+}
+
+.app.light {
+  background: #f9fafb;
+  color: #111827;
+}
+
+.theme-toggle {
+  margin-left: 20px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 50px; /* pill shape */
+  cursor: pointer;
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.8);
+}
+
+
+

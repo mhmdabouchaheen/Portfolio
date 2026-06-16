@@ -110,3 +110,36 @@
 .contact-links a:hover {
   color: #8b5cf6;
 }
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contact-links li {
+  margin: 10px 0;
+}
+
+.contact-links a {
+  color: #a5b4fc;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  color: #8b5cf6;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+.success-message {
+  color: #4ade80;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
