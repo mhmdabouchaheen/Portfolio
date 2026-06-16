@@ -35,7 +35,7 @@ function About() {
           </p>
           <a href="#portfolio" className="read-more">read more ↗</a>
 
-          {/* CV Buttons */}
+          
           <div className="cv-buttons">
             <a href="\public\assets\Mohammadabouchaheen-cv (2).pdf" download className="cv-btn">
               📄 Download CV

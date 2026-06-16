@@ -6,7 +6,6 @@ function Skills() {
       <div className="skills-container">
         <h1 className="skills-title">Skills</h1>
 
-        {/* Categories */}
         <div className="skills-section">
           <h2 className="skills-category">Frontend Skills</h2>
           <ul>

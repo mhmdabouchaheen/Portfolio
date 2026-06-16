@@ -17,7 +17,6 @@ function HireMe() {
           <li>⚡ Reliable and committed to delivering quality results</li>
         </ul>
 
-        {/* CV Buttons */}
         <div className="cv-buttons">
           <a href="\public\assets\Mohammadabouchaheen-cv (2).pdf" download className="cv-btn">
             📄 Download CV

@@ -15,7 +15,7 @@ function Contact() {
   return (
     <section className="contact">
       <div className="contact-container">
-        {/* Left side: Get in touch */}
+        
         <div className="contact-info">
           <h1 className="contact-title">Get in touch</h1>
           <p className="contact-text">
@@ -26,7 +26,7 @@ function Contact() {
           <p className="contact-detail">📞 961-76056589</p>
           <p className="contact-detail">✉️ shaheen.mhmd98@gmail.com</p>
 
-          {/* Professional links with icons */}
+         
           <ul className="contact-links">
             <li>
               <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
@@ -46,7 +46,6 @@ function Contact() {
           </ul>
         </div>
 
-        {/* Right side: Form */}
         <div className="contact-form">
           <h2 className="form-title">Send me a message</h2>
           {submitted ? (

@@ -6,12 +6,10 @@ function Home() {
   return (
     <section className="home">
       <div className="home-container">
-        {/* Left side: profile image */}
         <div className="home-image">
           <img src={profileImg} alt="Mohammad Abou Chaheen" />
         </div>
 
-        {/* Right side: intro text */}
         <div className="home-content">
           <p className="home-subtitle">Frontend Web Developer</p>
           <h1 className="home-title">
