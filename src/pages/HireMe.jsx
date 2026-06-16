@@ -16,6 +16,21 @@ function HireMe() {
           <li>🖊️ Passionate about writing clean, maintainable code</li>
           <li>⚡ Reliable and committed to delivering quality results</li>
         </ul>
+
+        {/* CV Buttons */}
+        <div className="cv-buttons">
+          <a href="\public\assets\Mohammadabouchaheen-cv (2).pdf" download className="cv-btn">
+            📄 Download CV
+          </a>
+          <a
+            href="\public\assets\Mohammadabouchaheen-cv (2).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cv-btn"
+          >
+            👀 Read CV Online
+          </a>
+        </div>
       </div>
     </section>
   );

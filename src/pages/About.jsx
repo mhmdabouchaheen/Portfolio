@@ -34,6 +34,21 @@ function About() {
             full-stack developer.
           </p>
           <a href="#portfolio" className="read-more">read more ↗</a>
+
+          {/* CV Buttons */}
+          <div className="cv-buttons">
+            <a href="\public\assets\Mohammadabouchaheen-cv (2).pdf" download className="cv-btn">
+              📄 Download CV
+            </a>
+            <a
+              href="\public\assets\Mohammadabouchaheen-cv (2).pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-btn"
+            >
+              👀 Read CV Online
+            </a>
+          </div>
         </div>
       </div>
     </div>

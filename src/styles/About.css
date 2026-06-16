@@ -84,3 +84,24 @@
   text-decoration: none;
   font-weight: bold;
 }
+.cv-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cv-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: #a78bfa;
+  transform: scale(1.05);
+}

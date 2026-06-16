@@ -1,5 +1,6 @@
 import "../styles/Home.css";
-import profileImg from "../assets/profile.jpeg"; // put your image in /src/assets
+import profileImg from "../assets/profile.jpeg";
+import { Link } from "react-router-dom";  // ✅ import Link
 
 function Home() {
   return (
@@ -21,8 +22,8 @@ function Home() {
             applications using React and JavaScript.
           </p>
           <div className="home-buttons">
-            <a href="#projects" className="primary-btn">View Projects</a>
-            <a href="#contact" className="secondary-btn">Contact Me</a>
+            <Link to="/projects" className="primary-btn">View Projects</Link>
+            <Link to="/contact" className="secondary-btn">Contact Me</Link>
           </div>
         </div>
       </div>
