@@ -11,6 +11,7 @@
 
 .projects-container {
   max-width: 1000px;
+  width: 100%;
 }
 
 .projects-title {
@@ -72,4 +73,51 @@
 
 .project-links a:hover {
   color: #a5b4fc;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-description {
+    font-size: 1rem;
+  }
+
+  .project-name {
+    font-size: 1.3rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 20px;
+  }
+
+  .projects-title {
+    font-size: 1.8rem;
+  }
+
+  .projects-description {
+    font-size: 0.9rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 20px;
+  }
+
+  .project-card {
+    text-align: center; /* center text on mobile */
+  }
+
+  .project-links a {
+    display: inline-block;
+    margin: 5px;
+  }
 }

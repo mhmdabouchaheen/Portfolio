@@ -53,3 +53,44 @@
 .skills-section li:hover {
   background: rgba(139, 92, 246, 0.3);
 }
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .skills-title {
+    font-size: 2.2rem;
+  }
+
+  .skills-category {
+    font-size: 1.3rem;
+  }
+
+  .skills-section li {
+    font-size: 0.95rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-page {
+    padding: 40px 15px;
+  }
+
+  .skills-container {
+    padding: 20px;
+  }
+
+  .skills-title {
+    font-size: 1.8rem;
+  }
+
+  .skills-category {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .skills-section li {
+    font-size: 0.85rem;
+    text-align: center;
+    width: 100%; /* full width items on mobile */
+  }
+}

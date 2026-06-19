@@ -16,6 +16,7 @@
   width: 100%;
 }
 
+/* Left side graphic */
 .about-graphic {
   flex: 1;
   display: flex;
@@ -57,6 +58,7 @@
   color: #d1d5db;
 }
 
+/* Right side text */
 .about-text-section {
   flex: 2;
 }
@@ -84,10 +86,12 @@
   text-decoration: none;
   font-weight: bold;
 }
+
 .cv-buttons {
   display: flex;
   gap: 15px;
   margin-top: 20px;
+  flex-wrap: wrap; /* allow buttons to wrap on small screens */
 }
 
 .cv-btn {
@@ -104,4 +108,51 @@
 .cv-btn:hover {
   background: #a78bfa;
   transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column; /* stack graphic above text */
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-text-section {
+    flex: unset;
+    width: 100%;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .initials {
+    font-size: 2rem;
+  }
+
+  .skills span {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+
+  .cv-btn {
+    width: 100%; /* buttons full width on mobile */
+    text-align: center;
+  }
 }

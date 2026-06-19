@@ -33,7 +33,7 @@ function About() {
             driven by curiosity and always looking to grow into a well-rounded
             full-stack developer.
           </p>
-          <a href="#portfolio" className="read-more">read more ↗</a>
+          
 
           
           <div className="cv-buttons">

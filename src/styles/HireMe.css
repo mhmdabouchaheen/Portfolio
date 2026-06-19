@@ -44,11 +44,13 @@
   background: rgba(255, 255, 255, 0.1);
   transform: translateX(5px);
 }
+
 .cv-buttons {
   display: flex;
   gap: 15px;
   margin-top: 30px;
   justify-content: center;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
 }
 
 .cv-btn {
@@ -65,4 +67,47 @@
 .cv-btn:hover {
   background: #a78bfa;
   transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .hireme-title {
+    font-size: 2rem;
+  }
+
+  .hireme-description {
+    font-size: 1rem;
+  }
+
+  .hireme-list {
+    font-size: 1rem;
+    text-align: center; /* center list items on tablet */
+  }
+
+  .hireme-list li {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hireme {
+    padding: 20px;
+  }
+
+  .hireme-title {
+    font-size: 1.8rem;
+  }
+
+  .hireme-description {
+    font-size: 0.95rem;
+  }
+
+  .hireme-list {
+    font-size: 0.9rem;
+  }
+
+  .cv-btn {
+    width: 100%; /* full width buttons on mobile */
+    text-align: center;
+  }
 }

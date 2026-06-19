@@ -6,14 +6,14 @@ function Projects() {
       name: "Ahla Bhall Talleh",
       description: "An all-in-one tourisim website for lebanon .",
       technologies: ["React", "Asp.net", "MySQl"],
-      github: "git@github.com:mostafaammar988040-cpu/Senior2.git",
+      github: "https://github.com/mostafaammar988040-cpu/Senior2.git",
       demo:null
     },
     {
       name: "Checkout-Flow",
       description: "A streamlined checkout process for e-commerce websites.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      github: "git@github.com:mhmdabouchaheen/checkout-Flow.git",
+      github: "https://github.com/mhmdabouchaheen/checkout-Flow.git",
             demo:null
 
     },

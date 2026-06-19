@@ -90,26 +90,7 @@
 .send-btn:hover {
   background: #6d28d9;
 }
-.contact-links {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
 
-.contact-links li {
-  margin: 10px 0;
-}
-
-.contact-links a {
-  color: #a5b4fc;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: 0.3s;
-}
-
-.contact-links a:hover {
-  color: #8b5cf6;
-}
 .contact-links {
   list-style: none;
   padding: 0;
@@ -142,4 +123,54 @@
   color: #4ade80;
   font-size: 1.1rem;
   margin-top: 20px;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column; /* stack info and form vertically */
+    gap: 30px;
+    text-align: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+  .form-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .send-btn {
+    width: 100%; /* full width button on mobile */
+  }
+
+  .contact-links a {
+    font-size: 1rem;
+  }
 }

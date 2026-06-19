@@ -11,6 +11,7 @@
 
 .tech-container {
   max-width: 900px;
+  width: 100%;
 }
 
 .tech-title {
@@ -61,3 +62,51 @@
 .bootstrap { color: #7952b3; }
 .git { color: #f1502f; }
 .github { color: #ffffff; }
+
+/* 📱 Responsive Design */
+@media (max-width: 992px) {
+  .tech-title {
+    font-size: 2rem;
+  }
+
+  .tech-description {
+    font-size: 1rem;
+  }
+
+  .tech-item {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .tech-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .technologies {
+    padding: 20px;
+  }
+
+  .tech-title {
+    font-size: 1.8rem;
+  }
+
+  .tech-description {
+    font-size: 0.95rem;
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+  }
+
+  .tech-item {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .tech-icon {
+    font-size: 1.8rem;
+  }
+}

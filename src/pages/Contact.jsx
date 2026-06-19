@@ -29,7 +29,7 @@ function Contact() {
          
           <ul className="contact-links">
             <li>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/mhmdabouchaheen" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="icon" /> GitHub Profile
               </a>
             </li>
@@ -39,7 +39,7 @@ function Contact() {
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/mohammad-abou-chaheen-086659368?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="icon" /> LinkedIn Profile
               </a>
             </li>
